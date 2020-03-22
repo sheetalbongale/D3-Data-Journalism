@@ -9,7 +9,7 @@
 ### Level 1:
 The data set included with the assignment is based on 2014 ACS 1-year estimates: [https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml), but you are free to investigate a different data set. The current data set incldes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
 
-![4-scatter](Images/4-scatter.jpg)
+![4-scatter](images/4-scatter.jpg)
 
 You need to create a scatter plot between two of the data variables such as `Healthcare vs. Poverty` or `Smokers vs. Age`.
 
@@ -27,7 +27,7 @@ Using the D3 techniques we taught you in class, create a scatter plot that repre
 
 Why make a static graphic when D3 lets you interact with your data?
 
-![7-animated-scatter](Images/7-animated-scatter.gif)
+![7-animated-scatter](images/7-animated-scatter.gif)
 
 #### 1. More Data, More Dynamics
 
@@ -51,6 +51,3 @@ Your final product will be assessed on the following metrics:
 
 **Good luck!**
 
-## Copyright
-
-Data Boot Camp © 2018. All Rights Reserved.
