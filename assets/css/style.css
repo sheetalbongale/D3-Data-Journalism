@@ -1,3 +1,17 @@
+.header{
+  margin-top: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #9db4d6;
+  color: white;
+  padding:20px;
+  padding-left: 60px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.title{
+  margin-top: 20px;
+}
+
 .iframeContainer {
   padding: 20px;
   border: 1px solid #e3e3e3;
@@ -10,6 +24,7 @@ html {
 }
 
 body {
+  font-family: 'Playfair Display', serif;
   /* Padding bottom by footer height */
   padding-bottom: 80px;
 }
