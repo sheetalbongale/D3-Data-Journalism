@@ -1,7 +1,7 @@
 .header{
   margin-top: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  background: #89b2d3;
+  background: #9bb3c7;
   color: white;
   padding:20px;
   padding-left: 60px;
@@ -28,6 +28,7 @@ body {
   background-image: url("../../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
   
   /* Padding bottom by footer height */
   padding-bottom: 80px;
