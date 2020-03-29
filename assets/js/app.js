@@ -136,9 +136,7 @@ function updateToolTip(currentSelectionY,currentSelectionX,circlesGroup,textGrou
 //                         Create chart
 //=================================================================
 
-
-	
-d3.csv("assets/data/data.csv").then(data =>{
+d3.csv("data/data.csv").then(data =>{
 	data.forEach( d =>{
 		d.poverty = +d.poverty;
 		d.age = +d.age;
@@ -147,7 +145,6 @@ d3.csv("assets/data/data.csv").then(data =>{
 		d.smokes = +d.smokes;
 		d.healthcare = +d.healthcare;
 	});
-
 
 	// creating x and y scales
 	var xLinearScale = xScale(data,currentSelectionX),
