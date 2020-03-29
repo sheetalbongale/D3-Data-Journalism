@@ -1,7 +1,7 @@
 .header{
   margin-top: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  background: #9db4d6;
+  background: #89b2d3;
   color: white;
   padding:20px;
   padding-left: 60px;
@@ -25,6 +25,10 @@ html {
 
 body {
   font-family: 'Playfair Display', serif;
+  background-image: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
   /* Padding bottom by footer height */
   padding-bottom: 80px;
 }
@@ -38,9 +42,11 @@ body {
   padding-bottom: 40px;
   text-align: center;
   background-color: #f5f5f5;
+  opacity: 0.4;
 }
 
 #footer p {
   margin: 0;
   font-size: 16px;
 }
+
