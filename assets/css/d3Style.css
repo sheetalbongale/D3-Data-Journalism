@@ -60,6 +60,12 @@
   font-size: 0.75em;
 }
 
+.axis-text-main{
+  font-family: 'Playfair Display',sans-serif;
+  text-anchor: middle;
+  font-size: 0.75em;
+}
+
 
 /* Mobile Rules */
 @media screen and (max-width: 530px) {
